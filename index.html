@@ -38,33 +38,64 @@
         </SVG>
     </button>
 </div>
-<div class="mobile-menu is-oupen "> 
+<div class="mobile-menu ">  is-oupen 
     <div class=" container mobile-menu-container">
         <button type="button" class="mobile-xr-btn">  
-            <SVG class="svg-icon-modal" width="8" height="8"> 
+            <SVG class="mobile-svg-icon" width="8" height="8"> 
             <USE href="./images/icons.svg#icon-xrest"></USE>
         </SVG>  
         </button>
         <nav class="mobile-menu-nav">
             <ul class="mobile-menu-nav-list">
-            <li class=" mobile-nav-item"><a href="./index.html" class="mobile-menu-link ">  Studio </a></li>
+            <li class=" mobile-nav-item"><a href="./index.html" class="mobile-menu-link blu ">  Studio </a></li>
             <li class="mobile-nav-item"><a  href="" class="mobile-menu-link"> Portfolio </a></li>
             <li class= "mobile-nav-item"><a href="" class="mobile-menu-link"> Contacts </a></li>
         </ul> 
  </nav>
 
 <address class="mobile-adrs"> 
-    <ul class="mobile=adrs-contact-list" >  
-    <li class="mobile-adrs-contact-email"><a href="mailto:info@devstudio.com" class="adrs-contact-link-mobile"> info@devstudio.com </a> </li>
-    <li class="mobile-adrs-contact-tel"><a href="tel:+110001111111" class="adrs-contact-link-mobile"> +11 (000) 111-11-11</a> </li>
+    <ul class="mobile-adrs-contact-list" >  
+        <li class="mobile-adrs-contact-tel "><a href="tel:+110001111111" class="mobile-adrs-contact-link  "> +11 (000) 111-11-11</a> </li>
+    <li class="mobile-adrs-contact-email"><a href="mailto:info@devstudio.com" class="mobile-adrs-contact-link black"> info@devstudio.com </a> </li>
+   
 
 </ul> 
 </address> 
+    <div  class="-mobilesoclist">
+<ul class="mobilesoclist-icon-list">
+    <li  class="mobilesoclist-svg-icon-item" >
+<a class="svg-icons-link" href="" target="_blank" rel="noopener no-referrer">
+        <SVG class="svg-icon-seo-mobilesoclist"  width="24" height="24">
+            <USE href="./images/icons.svg#icon-instagram"></USE>
+        </SVG>   
+    </a> </li>
+    
+    <li class="mobilesoclist-svg-icon-item">
+<a class="svg-icons-link" href="" target="_blank" rel="noopener no-referrer">
+        <SVG class="svg-icon-seo-mobilesoclist" width="24" height="24" >
+            <USE href="./images/icons.svg#icon-twitter"></USE>
+        </SVG>   
+    </a>  </li>
+    <li class="mobilesoclist-svg-icon-item">
+<a class="svg-icons-link" href="" target="_blank" rel="noopener no-referrer">
+        <SVG  class="svg-icon-seo-mobilesoclist" width="24" height="24" >
+            <USE href="./images/icons.svg#icon-facebook"></USE>
+        </SVG>   
+    </a> </li>
+    <li class="mobilesoclist-svg-icon-item">
+<a class="svg-icons-link" href="" target="_blank" rel="noopener no-referrer">   
+        <SVG class="svg-icon-seo-mobilesoclist" width="24" height="24" >
+            <USE href="./images/icons.svg#icon-linkedin"></USE>
+        </SVG>   
+    </a> </li>
+</ul>
+
+</div>
 
     </div>
     </div>
 </header> 
-<!-- <main>
+<main>
        
  <section class="hero">
  
@@ -77,8 +108,9 @@
             </div>
 
  </section>
+ 
  <section class="features">
-    <div class="container">
+    <div class="container-f">
         <h2 class="visually-hidden"> 1</h2>
         <ul class="features-list">
             <li class="features-item">
@@ -127,12 +159,14 @@
         </ul>
     </div>
  </section > 
- <section class="taste">
+ <!-- <section class="taste">
     <div class="container">
         <h2 class="taste-title section-title"> Our Team</h2>
         <ul class="taste-list">
             <li class="taste-item">
-                <img src="./images/img1-min.jpg" alt="Mark Guerrero" width="264" class="taste-item-img">
+                <img 
+                srcset="./images/img1-min-min.jpg 1x, ./images/img1-min2x-min.jpg 2x"
+                src="./images/img1-min.jpg" alt="Mark Guerrero" width="264" class="taste-item-img">
                 <div class="taste-container-nev">
                     <h3 class="taste-subtitle section-subtitle  "> Mark Guerrero</h3>
                     <p class="taste-text section-text">Product Designer</p>
@@ -168,7 +202,9 @@
             </div>
             </li>
             <li class="taste-item">
-                <img src="./images/img2-min.jpg" alt="Tom Ford" width="264" class="taste-item-img">
+                <img
+                srcset="./images/img2-min-min.jpg 1x, ./images/img2-min2x-min.jpg 2x"
+                src="./images/img2-min.jpg" alt="Tom Ford" width="264" class="taste-item-img">
                <div class="taste-container-nev">
                     <h3 class="taste-subtitle section-subtitle">Tom Ford </h3>
                     <p class="taste-text section-text">Frontend Developer</p>
@@ -204,7 +240,9 @@
                 </div>
             </li>
             <li class="taste-item">
-                <img src="./images/img3-min.jpg" alt="Camila Garcia" width="264" class="taste-item-img">
+                <img
+                srcset="./images/img3-min-min.jpg 1x, ./images/img3-min2x-min.jpg 2x"
+                src="./images/img3-min.jpg" alt="Camila Garcia" width="264" class="taste-item-img">
                 <div class="taste-container-nev">
                     <h3 class="taste-subtitle section-subtitle">Camila Garcia </h3>
                     <p class="taste-text section-text">Marketing</p>
@@ -240,7 +278,9 @@
                 </div>
             </li>
             <li class="taste-item">
-                <img src="./images/img4-min.jpg" alt="Daniel Wilson" width="264" class="taste-item-img">
+                <img 
+                srcset="./images/img4-min-min.jpg 1x, ./images/img4-min2x-min.jpg 2x"
+                src="./images/img4-min.jpg" alt="Daniel Wilson" width="264" class="taste-item-img">
                <div class="taste-container-nev">
                     <h3 class="taste-subtitle section-subtitle">Daniel Wilson </h3>
                     <p class="taste-text section-text">UI Designer</p>
