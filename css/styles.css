@@ -60,6 +60,7 @@ button {
 }
 
 .header {
+  padding: 0 16px;
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
             0 1px 1px 0 rgba(46, 47, 66, 0.16),
@@ -288,7 +289,7 @@ button {
     }
     .adrs-contact-link {
             padding: 24px 0;
-            font-size: 24px;
+            font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.02em;
     }
@@ -628,9 +629,9 @@ button {
             width: calc((100% - 24px) / 2);
     }
     .features-subtitle {
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 1.2;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.11;
             letter-spacing: 0.02em;
             color: #2e2f42;
             text-align: left;
@@ -807,7 +808,8 @@ button {
             max-width: 768px;
     }
     .taste-item {
-            width: calc((100% - 24px) / 2);
+      max-width:584px ;
+            /* width: calc((100% - 24px) / 2); */
     }
     .taste-list {
             gap: 72px 24px;
@@ -957,6 +959,7 @@ button {
     padding-bottom: 132px;
     display: flex;
     flex-wrap: wrap;
+    gap: 72px;
 }
 .footer-container {
     min-width: 320px;
@@ -972,6 +975,7 @@ button {
 
 .elem-van {
     padding: 0 16px;
+    text-align: center;
 }
 .footer-logo {
     font-family: "Raleway", sans-serif;
@@ -1093,13 +1097,13 @@ button {
             display: flex;
     }
     .container-f {
-            min-width: 768px;
+            max-width: 584px;
             display: flex;
             flex-wrap: wrap;
             flex-direction: row;
             justify-content: flex-start;
             align-items: flex-start;
-            gap: 72px;
+            gap: 72px 24px;
     }
     .footer-form {
             display: flex;
@@ -1110,6 +1114,7 @@ button {
     }
     .elem-van {
             text-align: left;
+            padding: 0;
     }
     .pat-foot {
             text-align: left;
@@ -1126,6 +1131,12 @@ button {
             flex-direction: row;
             justify-content: flex-start;
             align-items: flex-start;
+    }
+    .elem-van{
+      margin-right: 120px;
+    }
+    .footer-icon{
+      margin-right: 80px;
     }
 }
 
@@ -1150,10 +1161,10 @@ button {
 
 .modal {
     position: absolute;
-    padding: 24px;
+    padding: 8px 16px 9px 16px;
     top: 50%;
     left: 50%;
-    width: 100%; 
+     /* width: 100%;   */
     max-width: 320px; 
         min-height: 400px;
     border-radius: 4px;
