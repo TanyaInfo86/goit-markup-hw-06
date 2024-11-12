@@ -657,6 +657,7 @@ button {
             min-width: 1158px;
             padding-left: 15px;
             padding-right: 15px;
+            gap: unset;
     }
 
     .features-list-icon {
@@ -808,8 +809,7 @@ button {
             max-width: 768px;
     }
     .taste-item {
-      max-width:584px ;
-            /* width: calc((100% - 24px) / 2); */
+       width: calc((100% - 24px) / 2); */
     }
     .taste-list {
             gap: 72px 24px;
@@ -898,8 +898,7 @@ button {
 }
 .por-cover-text {
     position: relative;
-    width: 360px;
-    height: 300px;
+  
     overflow: hidden;
 }
 .portfol-cover-text {
@@ -1115,6 +1114,11 @@ button {
     .elem-van {
             text-align: left;
             padding: 0;
+            margin-bottom: 72px;
+    }
+    .footer-icon{
+      margin-right: 80px;
+      margin-bottom: 72px;
     }
     .pat-foot {
             text-align: left;
